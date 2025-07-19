@@ -10,7 +10,7 @@ function ProductList({ onHomeClick }) {
     const [addedtoCard, setAddedToCard] = useState({});
     const dispatch = useDispatch();
     const CartItems = useSelector(state => state.cart.items);
-    console.log(CartItems)
+
     const plantsArray = [
         {
             category: "Air Purifying Plants",
